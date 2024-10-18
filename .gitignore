@@ -6,3 +6,7 @@ node_modules/
 
 # Output folder
 salida/
+
+module_modules/
+
+.env
