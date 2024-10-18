@@ -20,7 +20,7 @@ const crearArchivo = async (base = 5, listar = false) => {
             console.log('========================'.green);
             console.log(` Tabla del: ${colors.yellow(base)}`);
             console.log('========================='.green);
-            console.log(salidaConsola); // Muestra con colores en consola
+            console.log(salidaConsola); 
         }
 
         // Guardar en archivo (sin colores)

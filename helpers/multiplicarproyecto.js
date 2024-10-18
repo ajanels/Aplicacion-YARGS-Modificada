@@ -28,14 +28,14 @@ const crearArchivo = async (base = 5, listar = false, hasta = 10) => {
         const filePath = `../salida/tabla-${base}-hasta-${hasta}.pdf`;
         doc.pipe(fs.createWriteStream(filePath));
 
-        // Añadir contenido al PDF
+       
         doc.fontSize(20).text(`Tabla de multiplicar del ${base} hasta el ${hasta}`, {
             align: 'center'
         });
         doc.moveDown();
         doc.fontSize(16).text(salida);
 
-        // Finalizar el PDF
+       
         doc.end();
 
         return filePath;
