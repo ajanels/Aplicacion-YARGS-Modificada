@@ -4,5 +4,8 @@
     "dotenv": "^16.4.5",
     "pdfkit": "^0.15.0",
     "yargs": "^17.7.2"
+  },
+  "scripts": {
+    "start": "node app15.js"
   }
 }
