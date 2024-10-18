@@ -1,6 +1,6 @@
 const express = require('express')
 const hbs= require('hbs')
-require('dotenv').config
+require('dotenv').config();
 
 const app= express()
 const port= process.env.PORT 
@@ -37,7 +37,7 @@ app.get('/generic', (req, res) => {
  */
 
 app.get('/elements', (req, res) => {
-    res.render('generic',{
+    res.render('elements',{
         nombre: "Chrisstian Tomas",
         titulo: "Curso de Node Js"
     })
